@@ -1,10 +1,39 @@
 .Dictionary {
   text-align: center;
   margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-.Dictionary-form {
-  margin: 30px 0;
+
+.Question {
+  text-align: center;
+  margin-bottom: 1rem;
 }
-.Results {
+
+.Form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.ResultsAndPhotosContainer {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.ResultsContainer {
+  flex: 2;
+  padding: 10px;
   text-align: left;
+}
+
+.PhotosContainer {
+  flex: 2;
+  padding: 10px;
+}
+
+.Photos {
+  max-width: 100%;
 }
