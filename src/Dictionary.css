@@ -1,8 +1,18 @@
-.Dictionary {
-  text-align: center;
-  margin: 30px 0;
-  display: flex;
-  flex-wrap: wrap;
+.Search {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 3rem;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.2)
+  );
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
 }
 
 .Question {
@@ -27,11 +37,13 @@
   flex: 2;
   padding: 10px;
   text-align: left;
+  margin-right: 20px;
 }
 
 .PhotosContainer {
   flex: 2;
-  padding: 10px;
+  padding: 5px;
+  margin-left: 20px;
 }
 
 .Photos {

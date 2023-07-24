@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(251, 222, 238) 15.6%,
-    rgb(206, 201, 226) 80.3%
+  background: linear-gradient(
+    58.2deg,
+    rgba(40, 91, 212, 0.73) -3%,
+    rgba(171, 53, 163, 0.45) 49.3%,
+    rgba(255, 204, 112, 0.37) 97.7%
   );
 }
 

@@ -15,7 +15,7 @@ export default function Photos(props) {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={photo.src.landscape}
+                    src={photo.src.portrait}
                     className="img-fluid"
                     alt={photo.photographer}
                   />
