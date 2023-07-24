@@ -13,9 +13,7 @@ export default function Meaning(props) {
           <em>"{props.meaning.example}"</em>
         </p>
       )}
-      {!props.meaning.example && (
-        <div className="Meaning-noexamples">No example</div>
-      )}
+      {!props.meaning.example && <div className="Meaning-noexamples"></div>}
       <Synonyms synonyms={props.meaning.synonyms} />
       <div className="Meaning-separator"></div>
     </div>

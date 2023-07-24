@@ -9,7 +9,28 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Ry Garner</footer>
+        <div>
+          <footer className="App-footer">
+            This project was coded by{" "}
+            <a href="https://www.linkedin.com/in/rgarn1/">Ry Garner</a>,
+            open-sourced on{" "}
+            <a
+              href="https://github.com/rygarner/SheCodes-Project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            , and hosted on{" "}
+            <a
+              href="https://fascinating-starburst-6bc341.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </footer>
+        </div>
       </div>
     </div>
   );
